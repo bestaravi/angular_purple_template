@@ -1,0 +1,22 @@
+/* Select2 */
+
+  .ng-select.ng-select-opened>.ng-select-container {
+    background: transparent;
+    border: 1px solid $border-color;
+  }
+  .ng-select {
+    .ng-select-container {
+      background: transparent;
+      border: 1px solid $border-color;
+    }
+  }
+  .ng-dropdown-panel {
+    background: $dark;
+    border: 1px solid $border-color;
+    .ng-dropdown-panel-items {
+      .ng-option {
+        background: $dark;
+        color: $white;
+      }
+    }
+  }

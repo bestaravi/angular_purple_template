@@ -1,0 +1,30 @@
+// Wizard
+
+.form-wizard {
+  .card {
+      border: 0;
+      .card-header {
+        background-color: transparent;
+        .nav {
+            .nav-item {
+                &.active {
+                    color: #2076d2;
+                }
+            }
+        }
+      }
+      .card-block {
+          .content {
+              padding: 2rem 0 0 0;
+              min-height: 24rem;
+          }
+      }
+      .card-footer {
+          background-color: transparent;
+          padding: 0;
+          button {
+              @extend .btn-primary;
+          }
+      }
+  }    
+}

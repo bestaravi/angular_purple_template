@@ -1,0 +1,44 @@
+/* Select2 */
+
+.ng-select.ng-select-opened>.ng-select-container {
+  background: transparent;
+  border: 1px solid $border-color;
+}
+.ng-select {
+  .ng-select-container {
+    background: transparent;
+    border: 1px solid $border-color;
+    color: $white;
+    .ng-value-container {
+      .ng-input>input {
+        color: $white;
+      }
+      .ng-placeholder {
+        color: $white;
+      }
+    }
+  }
+}
+.ng-dropdown-panel {
+  background: $dark;
+  border: 1px solid $border-color;
+  .ng-dropdown-panel-items {
+    .ng-option {
+      background: $dark;
+      color: $white;
+    }
+  }
+}
+.ng-select{
+  &.ng-select-multiple {
+    .ng-select-container {
+      .ng-value-container {
+        .ng-value {
+          background: $dark;
+        }
+      }
+    }
+  }
+}
+
+
